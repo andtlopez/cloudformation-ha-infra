@@ -1,6 +1,6 @@
 # cloudformation-ha-infra
 AWS CloudFormation repository that creates the network and the services for a HA infrastructure
-Usage:
+
 1. Create network using create-network.sh (pass a stack name, network.yml, and network-params.json) 
 2. Sample: "./create-network.sh webapp-network network.yml network-params.json"
 3. Check CloudFormation on AWS Console and see if stack's status is "CREATE_COMPLETE"
