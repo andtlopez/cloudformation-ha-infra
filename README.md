@@ -7,4 +7,3 @@ AWS CloudFormation repository that creates the network and the services for a HA
 4. Create services using create-services.sh (pass a stack name, services.yml, and services-params.json)
 5. Sample: "./create-services.sh webapp-services services.yml services-params.json"
 
-URL for current provisioned instance: http://webap-WebAp-1RYF9L0J3A1FI-96224454.us-west-2.elb.amazonaws.com
